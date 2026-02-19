@@ -1,0 +1,17 @@
+# 忽略大数据
+*.jsonl
+*.parquet
+*.csv
+data/
+huggingface/
+
+# 忽略模型权重
+DeepResearch-30B-A3B/
+*.bin
+*.pth
+*.pt
+*.ckpt
+
+# 忽略缓存
+__pycache__/
+.ipynb_checkpoints/
