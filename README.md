@@ -26,7 +26,7 @@ conda activate react_infer_env
 conda install --file env/react_infer_requirements.txt
 
 ```
-## 🚀 2. Search & Training Environment
+## 🚀 2. Search & Training Environment (`deepresearch`)
 **Purpose:** Designed for model training (Verl), Reinforcement Learning (RL) tasks, and high-performance inference via vLLM.
 
 ```
