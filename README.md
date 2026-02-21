@@ -26,14 +26,14 @@ conda activate react_infer_env
 conda install --file env/react_infer_requirements.txt
 
 ```
-## 🚀 2. Search & Training Environment (searchr1)
+## 🚀 2. Search & Training Environment
 **Purpose:** Designed for model training (Verl), Reinforcement Learning (RL) tasks, and high-performance inference via vLLM.
 
 ```
 
 # Create and activate environment
-conda create -n searchr1 python=3.9 -y
-conda activate searchr1
+conda create -n deepresearch python=3.9 -y
+conda activate deepresearch
 
 # Install PyTorch and vLLM
 pip install torch==2.4.0 --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
@@ -107,3 +107,8 @@ The training configurations, including reward functions and hyperparameter setti
 * **PPO Training**: `bash DeepResearch-R1/train_ppo.sh`
 
 * **GRPO Training**: `bash DeepResearch-R1/train_grpo.sh`
+
+### 4. Evaluation
+Run the following command to start the inference process:
+
+Inference: python DeepResearch-R1/infer.py
