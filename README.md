@@ -111,4 +111,4 @@ The training configurations, including reward functions and hyperparameter setti
 ### 4. Evaluation
 Run the following command to start the inference process:
 
-Inference: python DeepResearch-R1/infer.py
+* **Inference**: `python DeepResearch-R1/infer.py`
