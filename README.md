@@ -83,9 +83,9 @@ Each sample follows a standardized structure for seamless integration with SFT s
 
 ---
 
-## 🚀 Post-training
+## 🚀 Training and Evaluation
 
-We provide optimized scripts for sft and RL on 3B-parameter base models.
+We provide optimized scripts for **SFT** and **RL** on 3B-parameter base models.
 
 ### 1. Base Models
 The scripts are compatible with the following models:
