@@ -92,9 +92,18 @@ The scripts are compatible with the following models:
 * **Qwen2.5-3B**: [Qwen/Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B)
 * **Llama-3.2-3B**: [meta-llama/Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)
 
-### 2. Training Commands
+### 2. SFT Training
 The provided scripts are pre-configured to handle the dataset structure. Both the Full Dataset and Hard Subset can be used directly for training without additional preprocessing once placed in the data/ directory.
 
 Launch the training process using the following scripts:
 * **Llama 3.2**: `python sft_llama3b.py`
 * **Qwen 2.5**: `python sft_qwen3b.py`
+
+### 3. RL Training
+Our dataset is also designed to support reinforcement learning paradigms. You can initiate RL training either directly from the base models or as a second stage after Supervised Fine-Tuning (SFT).
+
+The training configurations, including reward functions and hyperparameter settings, align with the methodologies described in our paper. To start the process, use the provided bash scripts in the DeepResearch-R1/ directory:
+
+PPO Training: bash DeepResearch-R1/train_ppo.sh
+
+GRPO Training: bash DeepResearch-R1/train_grpo.sh
