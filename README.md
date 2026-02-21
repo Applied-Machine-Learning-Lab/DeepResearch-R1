@@ -93,6 +93,8 @@ The scripts are compatible with the following models:
 * **Llama-3.2-3B**: [meta-llama/Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)
 
 ### 2. Training Commands
+The provided scripts are pre-configured to handle the dataset structure. Both the Full Dataset and Hard Subset can be used directly for training without additional preprocessing once placed in the data/ directory.
+
 Launch the training process using the following scripts:
 * **Llama 3.2**: `python sft_llama3b.py`
 * **Qwen 2.5**: `python sft_qwen3b.py`
