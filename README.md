@@ -71,7 +71,6 @@ You can access the complete dataset and model rollouts on Hugging Face. We provi
     * Contains **9,000 high-quality samples** covering three difficulty levels.
 * **Hard Subset**: [artillerywu/DeepResearch-Hard](https://huggingface.co/datasets/artillerywu/DeepResearch-Hard)
     * A curated subset of **3,974 challenging samples** (filtered by `INCORRECT` verdicts).
-    * Ideal for iterative training to improve model reasoning limits.
       
 Note: After downloading the dataset files, please place them in the data/ directory of the project root
 
