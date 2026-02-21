@@ -104,6 +104,6 @@ Our dataset is also designed to support reinforcement learning paradigms. You ca
 
 The training configurations, including reward functions and hyperparameter settings, align with the methodologies described in our paper. To start the process, use the provided bash scripts in the DeepResearch-R1/ directory:
 
-* **PPO Training**: bash DeepResearch-R1/train_ppo.sh
+* **PPO Training**: `bash DeepResearch-R1/train_ppo.sh`
 
-* **GRPO Training**: bash DeepResearch-R1/train_grpo.sh
+* **GRPO Training**: `bash DeepResearch-R1/train_grpo.sh`
