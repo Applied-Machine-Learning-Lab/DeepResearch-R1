@@ -83,9 +83,9 @@ Each sample follows a standardized structure for seamless integration with SFT s
 
 ---
 
-## 🚀 Supervised Fine-Tuning (SFT)
+## 🚀 Post-training
 
-We provide optimized scripts for supervised fine-tuning on 3B-parameter base models.
+We provide optimized scripts for sft and RL on 3B-parameter base models.
 
 ### 1. Base Models
 The scripts are compatible with the following models:
